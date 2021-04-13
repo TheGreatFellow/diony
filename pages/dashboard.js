@@ -1,11 +1,15 @@
 import Head from "next/head";
 // import styles from "../styles/Home.module.css";
-import Link from "next/link";
 import Background from "../components/Background";
-import GlassContainer from "../components/GlassContainer";
 import GlassLogin from "../components/GlassLogin";
 
+import { useEffect } from "react";
+
 const dashboard = () => {
+  useEffect(() => {
+    console.log(window.location.href);
+  }, []);
+
   return (
     <>
       <head>

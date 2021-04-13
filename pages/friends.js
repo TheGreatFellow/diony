@@ -13,8 +13,8 @@ const friends = () => {
       `http://somebullshit.dataplicity.io/${e.target.value}`
     );
     console.log(res);
-    // const data = await res.json();
-    // setUsers(data);
+    const data = await res.json();
+    setUsers(data);
   };
   return (
     <>
