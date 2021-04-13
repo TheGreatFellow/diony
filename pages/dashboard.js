@@ -1,11 +1,16 @@
 import Head from "next/head";
 // import styles from "../styles/Home.module.css";
-import Link from "next/link";
 import Background from "../components/Background";
-import GlassContainer from "../components/GlassContainer";
 import GlassLogin from "../components/GlassLogin";
+import { useEffect } from "react";
 
 const dashboard = () => {
+  useEffect(() => {
+    const url= new URL(window.location.href);
+    var code = url.searchParams.get("code");
+    fetch(`https://vaporing-jackal-9275.dataplicity.io/final?code=${code}`).then((res)=>console.log(res.data));
+  }, []);
+
   return (
     <>
       <head>
