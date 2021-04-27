@@ -6,7 +6,7 @@ module.exports = {
       cus: "20px 20px 40px -6px rgba(0, 0, 0, 0.2)",
       cus1: "4px 4px 6px rgba(0, 0, 0, 0.1)",
       cus2: "4px 4px 45px 8px  rgba(255, 255, 255, 0.1)",
-      cus3: "15px 15px 15px rgba(0, 0, 0, 0.1)",
+      cus3: "0px 15px 15px rgba(0, 0, 0, 0.3)",
     },
     fontFamily: {
       heading: ["nunito"],

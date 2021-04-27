@@ -1,0 +1,77 @@
+.container {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  position: relative;
+  padding-top: 10px;
+}
+
+.cardContainer {
+  margin: 0;
+  padding-top: 150px;
+  width: 80vw;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 13px);
+  grid-auto-rows: 12px;
+  /* grid-auto-columns: 10px; */
+  justify-content: center;
+}
+
+.card {
+  /* Dr. Doofendermish with his daughter */
+
+position: absolute;
+left: 61.95%;
+right: 13.09%;
+top: 48.21%;
+bottom: 41.42%;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.03em;
+
+color: #593B3C;
+
+border: 1px solid #593B3C;
+text-shadow: -2px -2px 4px #FFFFFF, 2px 2px 4px rgba(0, 0, 0, 0.4);
+
+  
+}
+
+.imageContainer {
+  overflow: hidden;
+  border-radius: 15px;
+  font-size: 0px;
+}
+.cardSmall {
+  grid-row-end:span 20;
+  grid-column-end:span 20;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color:#DBDBDB;
+}
+
+.cardMedium {
+  overflow: hidden;
+  grid-row-end:span 40;
+  grid-column-end:span 40;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color:rgb(255, 175, 68);
+}
+.cardLarge {
+  grid-row-end:span 40;
+  margin: 10px;
+  padding: 0px;
+  border-radius: 15px;
+  background-color: black;
+}
