@@ -1,77 +1,194 @@
-.container {
-  margin: 0px;
-  padding: 0px;
-  background-color: black;
-  position: relative;
-  padding-top: 10px;
+.navbar {
+  width: 5vw;
+  height: 100vh;
+  position: fixed;
+  background-color: var(--bg-primary);
+  transition: 0.3s;
+  overflow: hidden;
 }
 
+.navbar:hover,
+.active {
+  width: 15vw;
+}
+
+.navbarNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+}
+
+.navLink {
+  /* position: absolute; */
+  width: 100%;
+  list-style: none;
+}
+
+.navLink:hover {
+  background: #ea1d63;
+}
+
+.navA {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+
+.icon {
+  position: relative;
+  display: block;
+  min-width: 5vw;
+  height: 5vw;
+  line-height: 5vw;
+  text-align: center;
+}
+
+.title {
+  position: relative;
+  display: block;
+  padding: 0 1vw;
+  height: 5vw;
+  line-height: 5vw;
+  text-align: start;
+  white-space: nowrap;
+}
+
+.toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background-color: #ea1d63;
+}
+/* .navItem {
+  width: 100%;
+}
+
+
+.navLink {
+  display: flex;
+  align-items: center;
+  height: 5vw;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+.linkText {
+  display: none;
+  margin-left: 1.2vw;
+}
+
+.navLink .icon {
+  min-width: 32px;
+  margin: 0 24px;
+}
+
+.icon {
+  height: 50px;
+
+  fill: purple;
+} */
+.container {
+  padding-left: 12vw;
+  background: linear-gradient(35deg, #ccffff, #ffcccc);
+  background-attachment: fixed;
+}
 .cardContainer {
   margin: 0;
-  padding-top: 150px;
+  padding-top: 40px;
   width: 80vw;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  background-color: white;
+  /* background-color: #ecf0f3; */
   display: grid;
-  grid-template-columns: repeat(auto-fill, 13px);
-  grid-auto-rows: 12px;
-  /* grid-auto-columns: 10px; */
+  grid-template-columns: repeat(80, 0.8vw);
+  grid-auto-rows: 0.8vw;
   justify-content: center;
 }
 
+@media (max-width: 800px) {
+  .cardContainer {
+    width: 100vw;
+  }
+}
+
 .card {
-  /* Dr. Doofendermish with his daughter */
+  margin: 0.9vw;
+  padding: 1vw;
+  border-radius: 1.3vw;
+  grid-row-end: span 20;
+  grid-column-end: span 20;
+  background: linear-gradient(134.77deg, #f6f7f8 1.74%, #dbe7f0 96.12%);
+  box-shadow: inset -6px -6px 4px rgba(87, 73, 73, 0.2),
+    inset 6px 6px 4px rgba(255, 255, 255, 0.67);
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+.medium {
+  grid-row-end: span 30;
+  grid-column-end: span 40;
+  transition: all 0.9s ease-in-out;
+}
 
-position: absolute;
-left: 61.95%;
-right: 13.09%;
-top: 48.21%;
-bottom: 41.42%;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 36px;
-letter-spacing: 0.03em;
-
-color: #593B3C;
-
-border: 1px solid #593B3C;
-text-shadow: -2px -2px 4px #FFFFFF, 2px 2px 4px rgba(0, 0, 0, 0.4);
-
-  
+.card:hover {
+  box-shadow: 4px 4px 7px rgba(255, 255, 255, 0.95),
+    inset 7px 7px 7px rgba(87, 73, 73, 0.21);
+  background: linear-gradient(134.77deg, #f1f5f8 1.74%, #e2ecf3 96.12%);
+  transform: scale(0.99);
+  transition: all 0.4s ease-in-out;
+}
+.medium:hover {
+  box-shadow: 4px 4px 7px rgba(255, 255, 255, 0.95),
+    inset 7px 7px 7px rgba(87, 73, 73, 0.21);
+  background: linear-gradient(134.77deg, #f1f5f8 1.74%, #e2ecf3 96.12%);
+  transform: scale(0.99);
+  grid-row-end: span 40;
 }
 
 .imageContainer {
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 1.3vw;
   font-size: 0px;
 }
 .cardSmall {
-  grid-row-end:span 20;
-  grid-column-end:span 20;
+  grid-row-end: span 20;
+  grid-column-end: span 20;
   margin: 10px;
   padding: 10px;
   border-radius: 15px;
-  background-color:#DBDBDB;
+  background-color: #dbdbdb;
 }
 
 .cardMedium {
   overflow: hidden;
-  grid-row-end:span 40;
-  grid-column-end:span 40;
+  grid-row-end: span 40;
+  grid-column-end: span 40;
   margin: 10px;
   padding: 10px;
   border-radius: 15px;
-  background-color:rgb(255, 175, 68);
+  background-color: rgb(255, 175, 68);
 }
+
 .cardLarge {
-  grid-row-end:span 40;
+  grid-row-end: span 40;
   margin: 10px;
   padding: 0px;
   border-radius: 15px;
   background-color: black;
+}
+
+.text {
+  position: relative;
+  top: 1vw;
+  left: 0.5vw;
+  font-family: Poppins;
+  font-size: 1.5vw;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  color: #593b3c;
+
+  text-shadow: -2px -2px 4px #ffffff, 2px 2px 4px rgba(0, 0, 0, 0.4);
 }

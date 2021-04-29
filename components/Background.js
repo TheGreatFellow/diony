@@ -26,71 +26,71 @@ const Background = ({ children }) => {
 
   return (
     <div>
-      <div class="relative  bg-gradient-to-r bg-fixed from-gray-300 via-blue-600 to-pink-500 h-screen overflow-hidden  items-center justify-center ">
+      <div class="relative  bg-gradient-to-tr bg-fixed from-indigo-200  to-pink-300 h-screen overflow-hidden  items-center justify-center ">
         {/*from-red-800  via-blueGray-700 */}
         <div class="grid-background absolute inset-0 p-2 grid grid-cols-12 gap-2 transform  scale-125 overflow-hidden max-w-full">
           {/* 1*/}
-          <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
+          <div class="col-span-2 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-4 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-1 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-2 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-3 bg-red-300 rounded animate-pulse"></div>
 
           {/* 2*/}
-          <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+          <div class="col-span-4 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-3 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-1 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-2 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-2 bg-red-300 rounded animate-pulse"></div>
 
           {/* 3*/}
-          <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-5 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
+          <div class="col-span-3 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-5 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-3 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-1 bg-red-300 rounded animate-pulse"></div>
 
           {/* 4*/}
-          <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+          <div class="col-span-2 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-4 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-3 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-1 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-2 bg-red-300 rounded animate-pulse"></div>
 
           {/* 5*/}
-          <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+          <div class="col-span-3 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-1 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-4 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-2 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-2 bg-red-300 rounded animate-pulse"></div>
 
           {/* 6*/}
-          <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
+          <div class="col-span-2 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-3 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-3 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-3 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-1 bg-red-300 rounded animate-pulse"></div>
 
           {/* 7*/}
-          <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
+          <div class="col-span-3 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-3 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-1 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-2 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-3 bg-red-300 rounded animate-pulse"></div>
           {/* 7*/}
-          <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+          <div class="col-span-4 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-4 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-2 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-2 bg-red-300 rounded animate-pulse"></div>
           {/* 7*/}
-          <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-5 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
+          <div class="col-span-2 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-5 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-1 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-4 bg-red-300 rounded animate-pulse"></div>
           {/* 7*/}
-          <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
-          <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
+          <div class="col-span-3 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-3 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-3 bg-red-300 rounded animate-pulse"></div>
+          <div class="col-span-3 bg-red-300 rounded animate-pulse"></div>
         </div>
         {children}
       </div>
