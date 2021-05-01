@@ -1,101 +1,6 @@
-.navbar {
-  width: 5vw;
-  height: 100vh;
-  position: fixed;
-  background-color: var(--bg-primary);
-  transition: 0.3s;
-  overflow: hidden;
-}
-
-.navbar:hover,
-.active {
-  width: 15vw;
-}
-
-.navbarNav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  color: #fff;
-}
-
-.navLink {
-  /* position: absolute; */
-  width: 100%;
-  list-style: none;
-}
-
-.navLink:hover {
-  background: #ea1d63;
-}
-
-.navA {
-  position: relative;
-  display: block;
-  width: 100%;
-  display: flex;
-  text-decoration: none;
-  color: #fff;
-}
-
-.icon {
-  position: relative;
-  display: block;
-  min-width: 5vw;
-  height: 5vw;
-  line-height: 5vw;
-  text-align: center;
-}
-
-.title {
-  position: relative;
-  display: block;
-  padding: 0 1vw;
-  height: 5vw;
-  line-height: 5vw;
-  text-align: start;
-  white-space: nowrap;
-}
-
-.toggle {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 60px;
-  height: 60px;
-  background-color: #ea1d63;
-}
-/* .navItem {
-  width: 100%;
-}
-
-
-.navLink {
-  display: flex;
-  align-items: center;
-  height: 5vw;
-  color: var(--text-primary);
-  text-decoration: none;
-}
-.linkText {
-  display: none;
-  margin-left: 1.2vw;
-}
-
-.navLink .icon {
-  min-width: 32px;
-  margin: 0 24px;
-}
-
-.icon {
-  height: 50px;
-
-  fill: purple;
-} */
 .container {
   padding-left: 12vw;
-  background: linear-gradient(35deg, #ccffff, #ffcccc);
+  background: linear-gradient(135deg, #ccffff, #ffcccc);
   background-attachment: fixed;
 }
 .cardContainer {
@@ -128,7 +33,7 @@
   overflow: hidden;
 }
 .medium {
-  grid-row-end: span 30;
+  grid-row-end: span 40;
   grid-column-end: span 40;
   transition: all 0.9s ease-in-out;
 }

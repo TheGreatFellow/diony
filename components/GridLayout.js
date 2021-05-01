@@ -1,27 +1,19 @@
 import style from "../styles/GridLayout.module.css";
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
+import SideNav from "./SideNav";
 
-import {
-  faArchway,
-  faUserNinja,
-  faExclamationTriangle,
-  faUsers,
-  faCogs,
-  faBeer,
-} from "@fortawesome/free-solid-svg-icons";
 function GridLayout() {
+  // Important Comment DO NOT DELETE!!
   // function toggleMenu() {
   //   if (typeof window === "object") {
   //     let navigation = document.querySelector(style.navbar);
   //     navigation.classList.toggle("active");
   //   }
   // }
-  const onClick = () => {
-    navVisible ? setNavVisible(false) : setNavVisible(true);
-  };
-  const [navVisible, setNavVisible] = useState(false);
+  // const onClick = () => {
+  //   navVisible ? setNavVisible(false) : setNavVisible(true);
+  // };
+  // const [navVisible, setNavVisible] = useState(false);
 
   return (
     <>
@@ -32,87 +24,7 @@ function GridLayout() {
         </style>
       </head>
       <body className={style.body}>
-        <div className={style.toggle} onClick={onClick}></div>
-
-        <nav
-          className={
-            navVisible ? `${style.navbar} ${style.active}` : style.navbar
-          }
-        >
-          <ul className={style.navbarNav}>
-            <li className={style.navLink}>
-              <a href="" className={style.navA}>
-                <span className={style.icon}>
-                  <FontAwesomeIcon
-                    className={style.fa}
-                    icon={faArchway}
-                    size="lg"
-                  ></FontAwesomeIcon>
-                </span>
-                <span className={style.title}>Home</span>
-              </a>
-            </li>
-            <li className={style.navLink}>
-              <a href="" className={style.navA}>
-                <span className={style.icon}>
-                  <FontAwesomeIcon
-                    className={style.fa}
-                    icon={faUserNinja}
-                    size="lg"
-                  ></FontAwesomeIcon>
-                </span>
-                <span className={style.title}>Profile</span>
-              </a>
-            </li>
-            <li className={style.navLink}>
-              <a href="" className={style.navA}>
-                <span className={style.icon}>
-                  <FontAwesomeIcon
-                    icon={faExclamationTriangle}
-                    size="lg"
-                  ></FontAwesomeIcon>
-                </span>
-                <span className={style.title}>Alerts</span>
-              </a>
-            </li>
-            <li className={style.navLink}>
-              <a href="" className={style.navA}>
-                <span className={style.icon}>
-                  <FontAwesomeIcon
-                    className={style.fa}
-                    icon={faUsers}
-                    size="lg"
-                  ></FontAwesomeIcon>
-                </span>
-                <span className={style.title}>Friends</span>
-              </a>
-            </li>
-            <li className={style.navLink}>
-              <a href="" className={style.navA}>
-                <span className={style.icon}>
-                  <FontAwesomeIcon
-                    className={style.fa}
-                    icon={faCogs}
-                    size="lg"
-                  ></FontAwesomeIcon>
-                </span>
-                <span className={style.title}>Settings</span>
-              </a>
-            </li>
-            <li className={style.navLink}>
-              <a href="" className={style.navA}>
-                <span className={style.icon}>
-                  <FontAwesomeIcon
-                    className={style.fa}
-                    icon={faBeer}
-                    size="lg"
-                  ></FontAwesomeIcon>
-                </span>
-                <span className={style.title}>Contact</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <SideNav />
         <main className={style.container}>
           <div className={style.cardContainer}>
             <div className={style.card}></div>
