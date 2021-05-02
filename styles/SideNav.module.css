@@ -3,8 +3,9 @@
   height: 100vh;
   position: fixed;
   background-color: var(--bg-primary);
-  transition: 0.5s;
+  transition: 0.55s;
   overflow: hidden;
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 
 .navbar:hover {
@@ -80,6 +81,20 @@
   width: 100%;
   list-style: none;
 }
+
+.navA::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #ea1d63;
+  transition: transform 0.1s ease-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
 .navLinknohover {
   /* position: absolute; */
   width: 100%;
@@ -88,8 +103,8 @@
 .navLinknohover:hover {
   cursor: pointer;
 }
-.navLink:hover {
-  background: #ea1d63;
+.navA:hover::before {
+  transform: scaleX(1);
 }
 
 .navA {
