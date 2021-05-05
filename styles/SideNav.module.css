@@ -94,14 +94,7 @@
   transform: scaleX(0);
   transform-origin: left;
 }
-.navLinknohover {
-  /* position: absolute; */
-  width: 100%;
-  list-style: none;
-}
-.navLinknohover:hover {
-  cursor: pointer;
-}
+
 .navA:hover::before {
   transform: scaleX(1);
 }
@@ -113,6 +106,16 @@
   display: flex;
   text-decoration: none;
   color: #fff;
+  cursor: pointer;
+}
+.navF {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
 }
 
 .icon {

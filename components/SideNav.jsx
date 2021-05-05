@@ -66,10 +66,10 @@ const SideNav = () => {
             </a>
           </li>
           <li
-            className={style.navLinknohover}
+            className={style.navLink}
             onClick={() => setFrensVisible(!frensVisible)}
           >
-            <div href="" className={style.navA}>
+            <div href="" className={style.navF}>
               <span className={style.icon}>
                 <FontAwesomeIcon icon={faUsers} size="lg"></FontAwesomeIcon>
               </span>
