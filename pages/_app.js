@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import "tailwindcss/tailwind.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import "react-responsive-modal/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 import Navbar from "../components/Navbar";

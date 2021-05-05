@@ -1,6 +1,6 @@
 import style from "../styles/GridLayout.module.css";
 import Image from "next/image";
-import SideNav from "./SideNav";
+import SideNav from "./SideNav.jsx";
 
 function GridLayout() {
   // Important Comment DO NOT DELETE!!

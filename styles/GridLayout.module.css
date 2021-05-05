@@ -35,7 +35,6 @@
 .medium {
   grid-row-end: span 40;
   grid-column-end: span 40;
-  transition: all 0.9s ease-in-out;
 }
 
 .card:hover {
@@ -43,46 +42,13 @@
     inset 7px 7px 7px rgba(87, 73, 73, 0.21);
   background: linear-gradient(134.77deg, #f1f5f8 1.74%, #e2ecf3 96.12%);
   transform: scale(0.99);
-  transition: all 0.4s ease-in-out;
-}
-.medium:hover {
-  box-shadow: 4px 4px 7px rgba(255, 255, 255, 0.95),
-    inset 7px 7px 7px rgba(87, 73, 73, 0.21);
-  background: linear-gradient(134.77deg, #f1f5f8 1.74%, #e2ecf3 96.12%);
-  transform: scale(0.99);
-  grid-row-end: span 40;
+  transition: all 0.2s ease-in-out;
 }
 
 .imageContainer {
   overflow: hidden;
   border-radius: 1.3vw;
   font-size: 0px;
-}
-.cardSmall {
-  grid-row-end: span 20;
-  grid-column-end: span 20;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 15px;
-  background-color: #dbdbdb;
-}
-
-.cardMedium {
-  overflow: hidden;
-  grid-row-end: span 40;
-  grid-column-end: span 40;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 15px;
-  background-color: rgb(255, 175, 68);
-}
-
-.cardLarge {
-  grid-row-end: span 40;
-  margin: 10px;
-  padding: 0px;
-  border-radius: 15px;
-  background-color: black;
 }
 
 .text {
