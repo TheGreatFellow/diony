@@ -1,6 +1,6 @@
-import style from "../styles/GridLayout.module.css";
-import Image from "next/image";
-import SideNav from "./SideNav.jsx";
+import style from "../styles/GridLayout.module.css"
+import Image from "next/image"
+import SideNav from "./SideNav.jsx"
 
 function GridLayout() {
   // Important Comment DO NOT DELETE!!
@@ -25,15 +25,17 @@ function GridLayout() {
       </head>
       <body className={style.body}>
         <SideNav />
+        <div className={style.rightAds}></div>
+
         <main className={style.container}>
           <div className={style.cardContainer}>
             <div className={style.card}></div>
             <div className={`${style.card} ${style.medium}`}>
               <div className={style.imageContainer}>
                 <Image
-                  src="https://i.ytimg.com/vi/xaPepCVepCg/maxresdefault.jpg"
-                  width="900px"
-                  height="500px"
+                  src='https://i.ytimg.com/vi/xaPepCVepCg/maxresdefault.jpg'
+                  width='900px'
+                  height='500px'
                 />
               </div>
               <div className={style.text}> Alan!! Alaaan!</div>
@@ -41,9 +43,9 @@ function GridLayout() {
             <div className={style.card}>
               <div className={style.imageContainer}>
                 <Image
-                  src="https://i.ytimg.com/vi/xaPepCVepCg/maxresdefault.jpg"
-                  width="900px"
-                  height="500px"
+                  src='https://i.ytimg.com/vi/xaPepCVepCg/maxresdefault.jpg'
+                  width='900px'
+                  height='500px'
                 />
               </div>
               <div className={style.text}> Alan!! Alaaan!</div>
@@ -51,9 +53,9 @@ function GridLayout() {
             <div className={style.card}>
               <div className={style.imageContainer}>
                 <Image
-                  src="https://i.ytimg.com/vi/xaPepCVepCg/maxresdefault.jpg"
-                  width="340px"
-                  height="200px"
+                  src='https://i.ytimg.com/vi/xaPepCVepCg/maxresdefault.jpg'
+                  width='340px'
+                  height='200px'
                 />
               </div>
               <div className={style.text}> Alan!! Alaaan!</div>
@@ -61,41 +63,40 @@ function GridLayout() {
             <div className={style.card}>
               <div className={style.imageContainer}>
                 <Image
-                  src="https://i.ytimg.com/vi/Yzn0sRH_4Qc/maxresdefault.jpg"
-                  width="900px"
-                  height="500px"
+                  src='https://i.ytimg.com/vi/Yzn0sRH_4Qc/maxresdefault.jpg'
+                  width='900px'
+                  height='500px'
                 />
               </div>
               <div className={style.text}> Alan!! Alaaan!</div>
             </div>
+            <div className={style.card}></div>
             <div className={`${style.card} ${style.medium}`}>
               <div className={style.imageContainer}>
                 <Image
-                  src="https://i.ytimg.com/vi/Yzn0sRH_4Qc/maxresdefault.jpg"
-                  width="900px"
-                  height="500px"
+                  src='https://i.ytimg.com/vi/Yzn0sRH_4Qc/maxresdefault.jpg'
+                  width='900px'
+                  height='500px'
                 />
               </div>
               <div className={style.text}> Alan!! Alaaan!</div>
             </div>
-            <div className={style.card}></div>
             <div className={style.card}>
               <div className={style.imageContainer}>
                 <Image
-                  src="https://i.ytimg.com/vi/Yzn0sRH_4Qc/maxresdefault.jpg"
-                  width="900px"
-                  height="500px"
+                  src='https://i.ytimg.com/vi/Yzn0sRH_4Qc/maxresdefault.jpg'
+                  width='900px'
+                  height='500px'
                 />
               </div>
               <div className={style.text}> Alan!! Alaaan!</div>
             </div>
-
             <div className={style.card}>
               <div className={style.imageContainer}>
                 <Image
-                  src="https://i.ytimg.com/vi/Yzn0sRH_4Qc/maxresdefault.jpg"
-                  width="900px"
-                  height="500px"
+                  src='https://i.ytimg.com/vi/Yzn0sRH_4Qc/maxresdefault.jpg'
+                  width='900px'
+                  height='500px'
                 />
               </div>
               <div className={style.text}> Alan!! Alaaan!</div>
@@ -106,9 +107,9 @@ function GridLayout() {
             <div className={style.card}>
               <div className={style.imageContainer}>
                 <Image
-                  src="https://i.ytimg.com/vi/qDsrlWpFNZQ/maxresdefault.jpg"
-                  width="900px"
-                  height="500px"
+                  src='https://i.ytimg.com/vi/qDsrlWpFNZQ/maxresdefault.jpg'
+                  width='900px'
+                  height='500px'
                 />
               </div>
               <div className={style.text}> Alan!! Alaaan!</div>
@@ -121,7 +122,7 @@ function GridLayout() {
         </main>
       </body>
     </>
-  );
+  )
 }
 
-export default GridLayout;
+export default GridLayout

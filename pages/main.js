@@ -1,7 +1,7 @@
-import GridLayout from "../components/GridLayout";
+import GridLayout from "../components/GridLayout.jsx"
 
 const main = () => {
-  return <GridLayout />;
-};
+  return <GridLayout />
+}
 
-export default main;
+export default main

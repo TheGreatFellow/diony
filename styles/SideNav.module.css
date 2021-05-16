@@ -6,6 +6,7 @@
   transition: 0.55s;
   overflow: hidden;
   transition-timing-function: cubic-bezier(0.17, 0.67, 0, 1.01);
+  z-index: 10;
 }
 
 .navbar:hover {
