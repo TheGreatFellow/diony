@@ -1,3 +1,5 @@
+const colors = require("tailwindcss/colors")
+
 module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
@@ -18,7 +20,11 @@ module.exports = {
       2: "2px 2px 4px rgba(0, 0, 0, 0.4)",
       none: "0 0 0 rgba(0, 0, 0, 0)",
     },
-    extend: {},
+    extend: {
+      colors: {
+        blueGray: colors.blueGray,
+      },
+    },
   },
   variants: {
     extend: {
@@ -29,4 +35,4 @@ module.exports = {
     textShadow: ["hover", "active"],
   },
   plugins: [require("tailwindcss-textshadow")],
-};
+}

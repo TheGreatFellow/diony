@@ -14,6 +14,7 @@ import {
   faUserSecret,
   faSortUp,
   faBell,
+  faUserAstronaut,
 } from "@fortawesome/free-solid-svg-icons"
 
 const SideNav = () => {
@@ -64,7 +65,10 @@ const SideNav = () => {
           <li className={style.navLink}>
             <a href='' className={style.navA}>
               <span className={style.icon}>
-                <FontAwesomeIcon icon={faUserNinja} size='lg'></FontAwesomeIcon>
+                <FontAwesomeIcon
+                  icon={faUserAstronaut}
+                  size='lg'
+                ></FontAwesomeIcon>
               </span>
               <span className={style.title}>Profile</span>
             </a>

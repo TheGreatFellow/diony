@@ -21,11 +21,16 @@ function GridLayout() {
         <style>
           @import
           url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
+          @import
+          url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;500;600;700&display=swap');{" "}
         </style>
       </head>
       <body className={style.body}>
         <SideNav />
-        <div className={style.rightAds}></div>
+        <div className={style.rightAds}>
+          {" "}
+          Google <br /> ads <br /> here
+        </div>
 
         <main className={style.container}>
           <div className={style.cardContainer}>
@@ -38,8 +43,9 @@ function GridLayout() {
                   height='500px'
                 />
               </div>
-              <div className={style.text}> Alan!! Alaaan!</div>
+              <div className={style.text}> Chipmunk</div>
             </div>
+            <div className={style.card}></div>
             <div className={style.card}>
               <div className={style.imageContainer}>
                 <Image
@@ -48,7 +54,7 @@ function GridLayout() {
                   height='500px'
                 />
               </div>
-              <div className={style.text}> Alan!! Alaaan!</div>
+              <div className={style.text}> Chipmunk</div>
             </div>
             <div className={style.card}>
               <div className={style.imageContainer}>
@@ -58,7 +64,7 @@ function GridLayout() {
                   height='200px'
                 />
               </div>
-              <div className={style.text}> Alan!! Alaaan!</div>
+              <div className={style.text}> Chipmunk</div>
             </div>
             <div className={style.card}>
               <div className={style.imageContainer}>
@@ -68,9 +74,10 @@ function GridLayout() {
                   height='500px'
                 />
               </div>
-              <div className={style.text}> Alan!! Alaaan!</div>
+              <div className={style.text}> Cricket farm</div>
             </div>
             <div className={style.card}></div>
+
             <div className={`${style.card} ${style.medium}`}>
               <div className={style.imageContainer}>
                 <Image
@@ -79,7 +86,7 @@ function GridLayout() {
                   height='500px'
                 />
               </div>
-              <div className={style.text}> Alan!! Alaaan!</div>
+              <div className={style.text}> Cricket farm</div>
             </div>
             <div className={style.card}>
               <div className={style.imageContainer}>
@@ -89,8 +96,9 @@ function GridLayout() {
                   height='500px'
                 />
               </div>
-              <div className={style.text}> Alan!! Alaaan!</div>
+              <div className={style.text}> Cricket farm</div>
             </div>
+            <div className={style.card}></div>
             <div className={style.card}>
               <div className={style.imageContainer}>
                 <Image
@@ -99,24 +107,17 @@ function GridLayout() {
                   height='500px'
                 />
               </div>
-              <div className={style.text}> Alan!! Alaaan!</div>
+              <div className={style.text}> Cricket farm</div>
             </div>
             <div className={style.card}></div>
 
             <div className={style.card}></div>
-            <div className={style.card}>
-              <div className={style.imageContainer}>
-                <Image
-                  src='https://i.ytimg.com/vi/qDsrlWpFNZQ/maxresdefault.jpg'
-                  width='900px'
-                  height='500px'
-                />
-              </div>
-              <div className={style.text}> Alan!! Alaaan!</div>
-            </div>
-            <div className={`${style.card} ${style.medium}`}></div>
+            <div className={style.card}></div>
+            <div className={style.card}></div>
+            <div className={style.card}></div>
             <div className={`${style.card} ${style.medium}`}></div>
             <div className={style.card}></div>
+            <div className={`${style.card} ${style.medium}`}></div>
             <div className={style.card}></div>
           </div>
         </main>
